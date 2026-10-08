@@ -67,42 +67,42 @@ export const DEPARTMENTS = {
 // Edit training counts and accuracy here; AboutPage reads this.
 export const MODEL_CARD = {
   architecture: "Teachable Machine image model (MobileNet v2 backbone, TF.js 1.7.4)",
-  overallAccuracy: "—",   // e.g. "92%"
-  totalImages:     "—",   // e.g. "500"
+  overallAccuracy: "88%",
+  totalImages:     "several hundred (approximate)",
   classes: [
     {
       name: "Pothole",
       color: "var(--c-pothole)",
-      trainingImages: "—",
-      testAccuracy:   "—",
+      trainingImages: "about 100 to 250 (approximate)",
+      testAccuracy:   "90%",
       description: "Road surface depressions caused by wear or water damage.",
     },
     {
       name: "Garbage dump",
       color: "var(--c-garbage)",
-      trainingImages: "—",
-      testAccuracy:   "—",
+      trainingImages: "about 100 to 250 (approximate)",
+      testAccuracy:   "75%",
       description: "Accumulated solid waste dumped on roads or open land.",
     },
     {
       name: "Waterlogging",
       color: "var(--c-water)",
-      trainingImages: "—",
-      testAccuracy:   "—",
+      trainingImages: "about 100 to 250 (approximate)",
+      testAccuracy:   "75%",
       description: "Standing water on roads after rain or drainage failure.",
     },
     {
       name: "Normal road",
       color: "var(--c-normal)",
-      trainingImages: "—",
-      testAccuracy:   "—",
+      trainingImages: "about 100 to 250 (approximate)",
+      testAccuracy:   "100%",
       description: "Road surface with no visible civic issue.",
     },
     {
       name: "Other",
       color: "var(--c-other)",
-      trainingImages: "—",
-      testAccuracy:   "—",
+      trainingImages: "about 100 to 250 (approximate)",
+      testAccuracy:   "100%",
       description: "Non-road photos: rooms, sky, objects, animals, etc.",
     },
   ],

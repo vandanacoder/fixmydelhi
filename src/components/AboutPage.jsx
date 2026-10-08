@@ -52,6 +52,9 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
+        <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 8 }}>
+          Image counts are approximate.
+        </p>
       </div>
 
       {/* Limitations */}
