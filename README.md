@@ -2,7 +2,6 @@
 
 A mobile-friendly civic issue reporter for Delhi, powered by a Teachable Machine image classifier.
 
-# FixMyDelhi
 **Live demo:** https://fixmydelhi.vercel.app
 
 ## Setup
